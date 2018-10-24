@@ -57,6 +57,12 @@
 		}
 		
 	],
+	  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/netis-pl/yii-debug.git"
+    }
+  ],
 	"support": {
 		"issues": "https://github.com/yiisoft/yii/issues?state=open",
 		"forum": "http://www.yiiframework.com/forum/",
@@ -69,5 +75,8 @@
 	],
 	"require": {
 		"php": ">=5.1.0"
-	}
+	},
+	"require-dev": {
+    	"netis/yii-debug": "^1.0"
+  	}
 }
